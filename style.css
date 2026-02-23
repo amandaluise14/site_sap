@@ -3,3 +3,9 @@ body{
     padding: 0px;
     background-color: rgb(250, 250, 250);
     }
+
+#parte1{
+    background-color: rgb(174, 213, 248);
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
