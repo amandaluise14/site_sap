@@ -5,15 +5,16 @@ body{
 }
 
 #parte1{
-    background-color: rgb(164, 196, 238);
+    background-color: rgb(195, 201, 252);
     align-items: center;
-    text-align: center;
+    text-align: justify;
     justify-content: space-around;
     padding: 15px;
+    margin-right: 400px;
     display: flex;
     border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(14, 75, 243);
+    color: rgb(6, 36, 172);
 }
 
 .escrita{
@@ -24,11 +25,72 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 0px;
-    background-color: blue;
+    background-color: rgb(6, 36, 172);
     color: rgb(255, 255, 255);
 }
 
 #imagem{
     width: 300px;
     height: 200px;
+}
+
+.opc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 0,5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-top: 10px;
+    background-color: rgb(6, 36, 172);
+    color: rgb(255, 255, 255);
+    }
+
+    #ult_compras{
+    background-color: rgb(195, 201, 252);
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    margin-right: 400px;
+    display: flex;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 36, 172);
+    margin-top: 20px;
+}
+
+.compra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.img_compra{
+    width: 100px;
+    height: 100px;
+
+}
+
+#parte3{
+    background-color: rgb(195, 201, 252);
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    margin-right: 400px;
+    display: flex;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 36, 172);
+    margin-top: 20px;
 }
