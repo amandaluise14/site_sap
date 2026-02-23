@@ -18,7 +18,14 @@ body{
 
 .escrita{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: 40px;
+    align-items: center;
+    padding-bottom: 0,5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
 }
 
 #imagem{
