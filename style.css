@@ -1,9 +1,9 @@
+body{
+    margin: 0px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
 #parte1{
-    background-color: rgb(174, 213, 248);
-    border-radius: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    text-align: center;
-    padding: 6px;
-    align-items: center;
+    background-color: rgb(90, 211, 248);
 }
