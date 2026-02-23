@@ -5,7 +5,7 @@ body{
 }
 
 #parte1{
-    background-color: rgb(150, 190, 243);
+    background-color: rgb(164, 196, 238);
     align-items: center;
     text-align: center;
     justify-content: space-around;
@@ -17,6 +17,7 @@ body{
 .escrita{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
+    color: rgb(14, 75, 243);
 }
 
 #imagem{
