@@ -1,27 +1,110 @@
-body{
+body {
     margin: 0px;
     padding: 15px;
     background-color: rgb(255, 255, 255);
 }
 
-#parte1{
-    background-color: rgb(164, 196, 238);
+#parte1 {
+    background-color: rgb(195, 201, 252);
     align-items: center;
-    text-align: center;
+    text-align: justify;
     justify-content: space-around;
     padding: 15px;
+    margin-right: 400px;
     display: flex;
     border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(14, 75, 243);
+    color: rgb(6, 36, 172);
 }
 
-.escrita{
+.escrita {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: 40px;
+    align-items: center;
+    padding-bottom: 0, 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    background-color: rgb(6, 36, 172);
+    color: rgb(255, 255, 255);
 }
 
-#imagem{
+#imagem {
     width: 300px;
     height: 200px;
+}
+
+.opc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 0.5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-top: 10px;
+    background-color: rgb(6, 36, 172);
+    color: rgb(255, 255, 255);
+}
+
+#compras {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-right: 900px;
+}
+
+#ult_compras {
+    background-color: rgb(195, 201, 252);
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    margin-right: 400px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 36, 172);
+    margin-top: 20px;
+}
+
+.compra {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.img_compra {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+#parte3 {
+    background-color: rgb(195, 201, 252);
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    margin-right: 400px;
+    display: flex;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 36, 172);
+    margin-top: 20px;
 }
