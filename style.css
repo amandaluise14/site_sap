@@ -53,6 +53,7 @@ body {
     justify-content: space-between;
     justify-content: space-around;
     padding-right: 900px;
+    
 }
 
 #ult_compras {
@@ -133,32 +134,49 @@ body {
 
 #status{
     background-color: rgb(195, 201, 252);
+    color: rgb(6, 36, 172);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-right: 900px;
 }
 
 #verde{
     color: rgb(255, 255, 255);
     background-color: rgb(85, 177, 43);
-    border-radius: 15px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #vermelho{
     color: rgb(255, 255, 255);
     background-color: rgb(230, 28, 28);
-    border-radius: 15px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #amarelo{
     color: rgb(255, 255, 255);
     background-color: rgb(252, 224, 64);
-    border-radius: 15px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #informacoes{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #conteudo{
@@ -170,5 +188,46 @@ body {
     color: black;
     background-color: white;
     margin: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#Mensagens{
+    background-color: rgb(195, 201, 252);
+    color: rgb(6, 36, 172);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 900px;
+    justify-content: space-between;
+}
+
+.contatos{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 5px;
+}
+
+#img_contato{
+     width: 60px;
+    height: 60px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#data{
+    padding-left: 480px;
 }
