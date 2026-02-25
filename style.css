@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     padding: 15px;
     background-color: rgb(255, 255, 255);
 }
 
-#parte1{
+#parte1 {
     background-color: rgb(195, 201, 252);
     align-items: center;
     text-align: justify;
@@ -17,11 +17,11 @@ body{
     color: rgb(6, 36, 172);
 }
 
-.escrita{
+.escrita {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 40px;
     align-items: center;
-    padding-bottom: 0,5px;
+    padding-bottom: 0, 5px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 0px;
@@ -29,12 +29,12 @@ body{
     color: rgb(255, 255, 255);
 }
 
-#imagem{
+#imagem {
     width: 300px;
     height: 200px;
 }
 
-.opc{
+.opc {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 40px;
     align-items: center;
@@ -46,9 +46,16 @@ body{
     margin-top: 10px;
     background-color: rgb(6, 36, 172);
     color: rgb(255, 255, 255);
-    }
+}
 
-    #ult_compras{
+#compras {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-right: 900px;
+}
+
+#ult_compras {
     background-color: rgb(195, 201, 252);
     align-items: center;
     text-align: justify;
@@ -56,17 +63,16 @@ body{
     width: 100%;
     padding: 15px;
     margin-right: 400px;
-    display: flex;
     border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(6, 36, 172);
     margin-top: 20px;
 }
 
-.compra{
+.compra {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -74,20 +80,21 @@ body{
     padding-top: 20px;
 }
 
-.img_compra{
+.img_compra {
     width: 100px;
     height: 100px;
 }
 
-.titulo{
+.titulo {
     display: flex;
+    text-align: center;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 15px;
-    padding-top: 20px;
+    padding: 6px;
 }
 
-#parte3{
+#parte3 {
     background-color: rgb(195, 201, 252);
     align-items: center;
     text-align: justify;
